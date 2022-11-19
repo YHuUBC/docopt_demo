@@ -15,5 +15,10 @@ Options:
 
 library(docopt)
 opt <- docopt(doc)
-print(opt)
-print(typeof(opt))
+
+# create a main function thus the print statements happen inside a main function
+main <- function(){
+  print(opt)
+  print(typeof(opt))
+}
+
