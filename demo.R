@@ -21,4 +21,5 @@ main <- function(){
   print(opt)
   print(typeof(opt))
 }
-
+# call main function
+main()
